@@ -53,12 +53,12 @@ public class CustomList extends ArrayAdapter<City> {
         cities.add(c);
     }
     public boolean hasCity(City c){
-        return true;
+        return false;
     }
     public void delCity(City c){
 
     }
-    public Integer count(){
+    public Integer countCity(){
         return 0;
     }
 }
